@@ -55,7 +55,7 @@ rl.question("Enter your base number: ", (answer) => {
 
   if (!isNaN(base)) {
     console.log("\n--- Grade Calculator ---");
-    let score = (base * 10) + 5;  // ✅ new formula
+    let score = (base * 10) + 5;  // new formula
     console.log(`Computed score = (${base} * 10) + 5 = ${score}`);
     if (score >= 0 && score <= 100) {
       console.log(`Grade: ${calculateGrade(score)}`);
